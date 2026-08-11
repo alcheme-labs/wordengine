@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools==75.8.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "geneword-engine"
+version = "0.1.0a1"
+description = "A playable field-driven world-engine research preview with auditable causal feedback."
+readme = { file = "README.md", content-type = "text/markdown" }
+requires-python = ">=3.12"
+license = { file = "LICENSE" }
+authors = [{ name = "GeNewWord contributors" }]
+keywords = ["artificial-life", "causal-simulation", "complex-systems", "world-engine"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: Apache Software License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Programming Language :: Python :: 3.14",
+  "Topic :: Scientific/Engineering",
+]
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/alcheme-labs/wordengine"
+Documentation = "https://github.com/alcheme-labs/wordengine/tree/main/docs"
+Issues = "https://github.com/alcheme-labs/wordengine/issues"
+
+[tool.setuptools]
+include-package-data = false
+license-files = ["LICENSE", "NOTICE"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["world_engine*"]
+exclude = ["tests*", "scripts*"]

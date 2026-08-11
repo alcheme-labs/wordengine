@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: >-
+  If you use GeNewWord Engine in research or software, please cite this release.
+title: GeNewWord Engine
+abstract: >-
+  A playable field-driven world-engine research preview with auditable
+  Field-to-Pattern-to-Agent-to-Feedback causal behavior.
+type: software
+authors:
+  - name: GeNewWord contributors
+version: "0.1.0-alpha.1"
+license: Apache-2.0
+repository-code: "https://github.com/alcheme-labs/wordengine"

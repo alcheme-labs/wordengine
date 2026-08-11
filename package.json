@@ -1,0 +1,18 @@
+{
+  "name": "geneword-engine-browser-tests",
+  "version": "0.1.0-alpha.1",
+  "private": true,
+  "description": "Browser acceptance tests for the GeNewWord Engine research preview.",
+  "license": "Apache-2.0",
+  "packageManager": "npm@10.9.2",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "npm run test:browser",
+    "test:browser": "node tests/browser/test_implicit_3d_live_interaction_viewer_smoke.mjs && node tests/browser/test_five_phase_live_world_viewer_smoke.mjs"
+  },
+  "devDependencies": {
+    "playwright": "1.59.1"
+  }
+}
