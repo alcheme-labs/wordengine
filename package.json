@@ -13,6 +13,6 @@
     "test:browser": "node tests/browser/test_implicit_3d_live_interaction_viewer_smoke.mjs && node tests/browser/test_five_phase_live_world_viewer_smoke.mjs"
   },
   "devDependencies": {
-    "playwright": "1.59.1"
+    "playwright": "1.64.1"
   }
 }
